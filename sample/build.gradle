@@ -1,0 +1,16 @@
+apply plugin: 'com.android.application'
+
+android {
+  compileSdkVersion 28
+
+  defaultConfig {
+    applicationId "com.karumi.expandableselector"
+    minSdkVersion 16
+    targetSdkVersion 28
+  }
+}
+
+dependencies {
+  compile project(':expandableselector')
+  compile 'androidx.appcompat:appcompat:1.0.0'
+}
